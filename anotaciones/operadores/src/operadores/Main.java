@@ -178,6 +178,27 @@ public class Main {
 		        var numero = 8;
 		        var par = (numero % 2 == 0) ? "numero par" : "numero impar";
 		        System.out.println("par = " + par);
+		        
+		        
+		        /* Precedencia de operadores en java  */
+		        
+		        System.out.println();
+		        System.out.println("Precedencia de operadores en java");
+		        System.out.println();
+		        
+		        var x = 5;
+		        var y = 10;
+		        var z = ++x + y--;//x=6, y=10, z=16
+		        System.out.println("x = " + x);
+		        System.out.println("y = " + y);
+		        System.out.println("z = " + z);
+
+		        System.out.println("\nEjemplo 2 precedencia operadores");
+				var resultadoPrecencia = 4 + 5 * 6 / 3;// 4+((5*6)/3) => 4+(30/3) => 4+10 => 14
+				System.out.println("resultado = " + resultadoPrecencia);
+		        
+		        resultadoPrecencia = (4 + 5) * 6 / 3;
+		        System.out.println("resultado = " + resultadoPrecencia);
 
 	}
 
