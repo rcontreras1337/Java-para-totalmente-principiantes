@@ -1,6 +1,0 @@
-INDEX VERSION 1.131+C:\workSpaceAprendizaje\Java para totalmente principiantes\seccion2-variables-en-java\.metadata\.plugins\org.eclipse.jdt.core
-174646633.index
-1865797976.index
-1614603399.index
-2938649015.index
-778069775.index
