@@ -1,0 +1,47 @@
+package primitivos;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/* Primitivos Integer */
+		
+//		Enteros byte, short, int, long
+		// Los literales son de tipos enteros, van al lado derecho ya que al lado izquierdo va la variable
+		byte byteVar = 15;
+		System.out.println("Maximo de byte: " + Byte.MAX_VALUE + " Valor min:" + Byte.MIN_VALUE);
+		
+		long nuermoGrande = 12321321312312L;
+		
+		
+// 		Algunas veces para asignar un valor gigante a un long, se debe agregar la L al final para indicarle que es de tipo long, ya que por
+//		defecto cualquier numero pasado en codigo duro sera tomado como un int/Integer
+		
+		/* Base decimal, hexadecimal y octal */
+		
+		int numeroDecimal = 10;
+		System.out.println("numeroDecimal : " + numeroDecimal);
+		
+		int numeroOctal = 012;
+//		Esto se imprime en sistema decimal
+		System.out.println("numeroOctal: " + numeroOctal);
+		
+		int numeroHexaDecimal = 0XA;
+		System.out.println("numeroHexaDecimal: "+numeroHexaDecimal);
+		
+		int numeroBinario = 0B1010;
+		System.out.println("numeroBinario: " + numeroBinario);
+		
+		/* Primitivos Float */
+//		Decimales float, double
+//		al pasar una literal en duro a nuestro codigo, por defecto es double que es mas pequeño que float, por lo tanto para que 
+//		acepte un numero con mas de un decimal debemos castear a Float con una F al final 
+		
+		float floatVar = 1000;
+		System.out.println("floatVar : " + floatVar);
+		
+
+	}
+
+}

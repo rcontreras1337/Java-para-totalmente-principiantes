@@ -1,0 +1,16 @@
+package primitivos;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+//		Enteros byte, short, int, long
+		byte byteVar = 15;
+		System.out.println("Maximo de byte: " + Byte.MAX_VALUE + " Valor min:" + Byte.MIN_VALUE);
+		
+		
+
+	}
+
+}
